@@ -1,0 +1,73 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ============================
+# Playwright
+# ============================
+# Downloaded browsers (cached)
+playwright/.cache/
+# Traces & videos
+test-results/
+test-results/*.zip
+videos/
+screenshots/
+
+# ============================
+# Pytest
+# ============================
+.pytest_cache/
+.cache/
+
+# Allure reports
+allure-results/
+allure-report/
+
+# ============================
+# Project-specific files
+# ============================
+# Excel test data (optional: ignore only temporary files)
+*.xlsx~
+*.xlsm~
+*.tmp
+
+# If you want to ignore test data Excel files, uncomment:
+# data/*.xlsx
+
+# Logs
+logs/
+*.log
+
+# ============================
+# IDEs / Editors
+# ============================
+
+# VSCode
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+Thumbs.db
